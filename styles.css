@@ -23,7 +23,7 @@
 
 .banner{
     /* background-color: #ccccb3; */
-    background-image: url('./man.jpg');
+    background-image: url("https://images.pexels.com/photos/1573007/pexels-photo-1573007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,6 +33,9 @@
     color: salmon;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    /* min-width: fit-content; */
 }
 .married{
     color: white;
@@ -44,11 +47,13 @@
 }
 
 .layout{
-    padding: 5px;
-    margin: 5px;
+    /* padding: 5px;
+    margin: 5px; */
     color: white;
     font-size: 20px;
     list-style-type: none;
+    display: flex;
+
 }
 
 .button{
@@ -78,4 +83,15 @@ body{
     margin: 0px;
     padding: 0px;
     
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    margin-left: 5px;
 }
